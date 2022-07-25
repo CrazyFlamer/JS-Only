@@ -1,0 +1,201 @@
+/* Здесь пишем свои стили */
+.viewport {
+	width: 900px;
+	overflow: hidden;
+  }
+  footer {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #111;
+    background-color: #EECB33;
+    font-size: 30px;
+    bottom: 100px;
+    right: 100px;
+    border-radius:100%;
+    opacity: 0;
+    transition: all 1s;   
+}
+#up{
+cursor: pointer;
+transition: all 1s; 
+}
+#up{
+transition: all 2s; 
+}
+.vis {
+opacity: 1;
+}
+.line{
+  display: block;
+  height: 6px;
+  width: 0;
+  background-color: #E22122;
+  margin-top: 21px;
+  transition: all 2s;
+}
+.line1{
+  display: block;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  left: -4px;
+  top: -13.6px;
+  transition: all 2s;
+}
+.visible{
+  opacity: 0;
+}
+.unvisible{
+  opacity: 1;
+}
+#a1{
+  transition: all 2s;
+}
+#a5{
+  margin-left: 40px;
+  cursor: pointer;
+}
+#a6{
+  margin-left: -20px;
+}
+.preloader{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: white;
+  z-index: 2;
+}
+.legoman{
+  display: block;
+  margin: 40vh auto;
+  width: 100px;
+  transition: all 1s;
+}
+.bigsmall{
+  transform: scale(0.6);
+  transition: all 1s;
+}
+.smallbig{
+  transform: scale(1);
+  transition: all 0.5s;
+}
+
+
+.effekt1{
+  transform: rotate(0);
+  opacity: 1;
+}
+.tov1{
+  transform: rotate(60deg);
+  opacity: 0;
+}
+.pro1{
+  transition: all 1s cubic-bezier(1,-0.16, 0.31, 3.79);
+}
+
+.effekt2{
+  transform: translate(0,0);
+  opacity: 1;
+}
+.tov2{
+  transform: translate(0,-50px);
+  opacity: 0;
+}
+.pro2{
+  transition: all 1s cubic-bezier(1,-0.16, 0.31, 0);
+}
+
+.effekt3{
+  transform: rotate(0);
+  opacity: 1;
+}
+.tov3{
+  transform: rotate(-60deg);
+  opacity: 0;
+}
+.pro3{
+  transition: all 1s cubic-bezier(1,-0.16, 0.31, 3.79);
+}
+
+.effekt4{
+  transform: translate(0,0);
+  opacity: 1;
+}
+.tov4{
+  transform: translate(-600px,0);
+  opacity: 0;
+}
+.pro4{
+  transition: all 1s ease-in;
+}
+
+.effekt5{
+  transform: translate(0,0);
+  opacity: 1;
+}
+.tov5{
+  transform: translate(0,50px);
+  opacity: 0;
+}
+.pro5{
+  transition: all 1s cubic-bezier(1,-0.16, 0.31, 0.79);
+}
+
+.effekt6{
+  transform: translate(0,0);
+  opacity: 1;
+}
+.tov6{
+  transform: translate(600px,0);
+  opacity: 0;
+}
+.pro6{
+  transition: all 1s ease-in;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  max-width: 100%;
+  height: 400px;
+  max-height: 100%;
+  z-index: 1010;
+  background-color: #facc0e;
+}
+.modal-overlay {
+  z-index: 1000;
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+}
+.closed {
+  display: none;
+}
+.moBut{
+  background-color: #E22122;
+  display: flex;
+  width: 120px;
+  height: 50px;
+  border-radius: 20px;
+  position: relative;
+  top: 320px;
+  left: 440px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  color: #facc0e;
+  cursor: pointer;
+}
